@@ -1,0 +1,98 @@
+﻿Jūlija Cvetkova 12B
+
+
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <title>Mana vizītkarte</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <img src= https://www.pinterest.com/pin/721561171592137789/>
+    <h1>Jūlija Cvetkova.</h1>
+    <p>Vidusskolas skolēns ar interesi par dizainu, kino un tehnoloģijām. Radoša, mērķtiecīga un atvērta jaunām idejām.</p>
+    <button>Sazināties:)</button>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+/* Fona un vispārējais izskats */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #2d2d44);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+/* Karte */
+.card {
+  background-color: #2f2f4f;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding: 40px;
+  width: 320px;
+  transition: transform 0.3s ease;
+}
+
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+
+/* Profila bilde */
+.profile {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #4c8bf5;
+}
+
+
+/* Teksts */
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #4c8bf5;
+}
+
+
+p {
+  font-size: 15px;
+  color: #ccc;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+
+/* Poga */
+button {
+  background-color: #4c8bf5;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+
+button:hover {
+  background-color: #366fd1;
+}
